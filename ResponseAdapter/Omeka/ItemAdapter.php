@@ -52,7 +52,7 @@ class ItemAdapter extends AbstractRecordAdapter
             $elName = $elTextData['element']['name'];
             $value = $elTextData['text'];
             if (isset($elementTexts[$elName])) {
-                $elementTexts[$elName] = $elementTexts[$elName] . ',' . $value;
+                $elementTexts[$elName] = $elementTexts[$elName] . '|' . $value; //changed to pipe delimiter to be able to export multiple values by Bria (km)
             } else {
                 $elementTexts[$elName] = $value;
             }
