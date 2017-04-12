@@ -24,4 +24,4 @@ Watch for timeouts -- your server settings might stop the script before it compl
 Limitations
 -----------
 
-CSV. It's Comma Separated Values, so it can't handle much density. If you have multiple values for an element (e.g., more than one title), all values for that element will be smooshed into one.
+CSV. It's Comma Separated Values, so it can't handle much density. If you have multiple values for an element (e.g., more than one title), they will be separated by a pipe delimiter.
